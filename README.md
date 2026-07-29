@@ -11,4 +11,3 @@ student_id is anonymized (S2019_xxx / S2020_xxx encode only the cohort and a seq
 
 cohort_year: curriculum version (2019 / 2020).
 
-<img width="1923" height="169" alt="image" src="https://github.com/user-attachments/assets/e4567cc0-8dbf-4ecb-b2e4-a7bb7da887b4" />
