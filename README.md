@@ -1,18 +1,15 @@
 
-Scope: academic scores for 32 courses covering semesters 1-8; 115 students in 2019 and 102 students in 2020.
+Scope: the academic scores for 35 courses of 115 students enrolled in 2019 and 102 students enrolled in 2020. 
+
+courses: course_id
+
+Curriculum Plan: curriculum structure of each course in each cohort, including the offered semester(s), the semester window used for prerequisite direction (start_semester, end_semester),credit_hours, credits, course_group and course_type.
+
+grades: per-student course records. score is the grade used in the analysis; observed_credits is the number of credits the student actually took for that course.
+
+student_id is anonymized (S2019_xxx / S2020_xxx encode only the cohort and a sequence number).
+
+cohort_year: curriculum version (2019 / 2020).
 
 
-courses: course_id is the common display number (1-32); course_name is the English course name.
-
-
-curriculum Plan: per-cohort course structure, semester window, credit hours, credits, course group and course type. Multi-semester courses retain the same course_id.
-
-
-grades: one row per observed student-course record; score is the analysis grade and observed_credits is the summed observed credit value used by the experiment.
-
-
-student_id is the anonymized identifier from the formal 32-course experiment.
-
-
-cohort_year is the curriculum version (2019 or 2020).
 
